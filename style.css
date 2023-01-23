@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 50px 48px;
+
+  position: fixed;
+  width: 100%;
+  background-color: black;
+}
+
+button {
+  padding: 16px 24px;
+  border-radius: 100px;
+  border: 1px solid #c90404;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+
+  /* display flex e align items funcionam juntos */
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+}
+
+#form-habits {
+  display: flex;  
+  padding: 182px 48px 48px;
+  width: fit-content;
+}
+
+.habits {
+  margin-top: 60px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 23px;
+}
+
+.habit {
+  width: 68px;
+  height: 68px;
+
+  font-size: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.days {
+  display: flex;
+  gap: 48px;
+  margin-left: 32px;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.day div { 
+  margin-bottom: 8px;
+
+  font-family: 'roboto mono';
+  font-size: 20px;
+  line-height: 20px;
+
+  color: aliceblue;
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+
+  width: 64px;
+  height: 64px;
+
+  border: 1px solid red;
+  border-radius: 20px;
+  
+  background-color: #181818;
+}
+
+/*pseudo selector*/ 
+input:checked {
+
+  background: red;
+  border: 2px solid red;
+  border-radius: 200px;
+}
+
+@media (max-width: 500px) {
+  button div {
+    display: none;
+  }
+}
