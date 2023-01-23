@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: rgb(0, 0, 0);
-  color: aliceblue;
+  background-color: #000000;
+  color: white;
 
   height: 100vh;
 }
@@ -14,6 +14,7 @@ body {
 header {
   display: flex;
   align-items: center;
+  zoom: 140%;
 
   justify-content: space-between;
 
@@ -26,7 +27,7 @@ header {
 
 button {
   padding: 16px 24px;
-  border-radius: 100px;
+  border-radius: 10px;
   border: 1px solid #c90404;
   background-color: transparent;
   color: rgb(255, 255, 255);
@@ -36,32 +37,33 @@ button {
   align-items: center;
   gap: 12px;
 
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 600;
   font-size: 16px;
   line-height: 125%;
 }
 
-#form-habits {
-  display: flex;  
-  padding: 182px 48px 48px;
+form {
+  display: flex;
+
+  padding: 256px 48px 48px;
   width: fit-content;
 }
 
 .habits {
-  margin-top: 60px;
+  margin-top: 50px;
 
   display: flex;
   flex-direction: column;
 
-  gap: 23px;
+  gap: 16px;
 }
 
 .habit {
-  width: 68px;
+  width: 50px;
   height: 68px;
 
-  font-size: 42px;
+  font-size: 30px;
 
   display: flex;
   align-items: center;
@@ -80,35 +82,37 @@ button {
   gap: 24px;
 }
 
-.day div { 
+.day div {
   margin-bottom: 8px;
 
-  font-family: 'roboto mono';
+  font-family: "roboto mono";
   font-size: 20px;
   line-height: 20px;
 
   color: aliceblue;
+
+  text-align: center;
 }
 
 input {
   appearance: none;
   -webkit-appearance: none;
 
-  width: 64px;
-  height: 64px;
+  width: 60px;
+  height: 60px;
 
   border: 1px solid red;
-  border-radius: 20px;
-  
-  background-color: #181818;
+  border-radius: 10px;
+
+  background-color: #111111;
 }
 
-/*pseudo selector*/ 
+/*pseudo selector*/
 input:checked {
-
   background: red;
   border: 2px solid red;
-  border-radius: 200px;
+  background-color: rgb(255, 0, 0);
+  border-radius: 10px;
 }
 
 @media (max-width: 500px) {

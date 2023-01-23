@@ -2,6 +2,7 @@
   "recommendations": [
     "esbenp.prettier-vscode",
     "PKief.material-icon-theme",
+    "rocktseat.theam-omni",
     "ritwickdey.LiveServer"
   ]
 }
