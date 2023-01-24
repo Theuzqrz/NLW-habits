@@ -26,12 +26,11 @@
   "prettier.tabWidth": 2,
   "prettier.semi": false,
 
-  // terminal
+  // terminal 
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.profiles.windows": {
     "Git Bash": {
       "source": "Git Bash"
     }
-  },
-  "terminal.integrated.defaultProfile.windows": "Git Bash"
+  },  "terminal.integrated.defaultProfile.windows": "Git Bash"
 }
