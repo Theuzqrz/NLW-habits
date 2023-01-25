@@ -6,7 +6,7 @@
 
 body {
   background-color: #000000;
-  color: rgb(248, 248, 248);
+  color: rgb(255, 255, 255);
 
   height: 100vh;
 }
@@ -14,23 +14,22 @@ body {
 header {
   display: flex;
   align-items: center;
-  zoom: 139%;
+  zoom: 100%;
 
   justify-content: space-between;
-
-  padding: 50px 48px;
-
+  border: solid green; /* TIRAR */
+  padding: 15px 48px;
   position: fixed;
   width: 100%;
   background-color: black;
 }
 
 button {
-  padding: 16px 24px;
-  border-radius: 10px;
-  border: 1px solid #c90404;
-  background-color: transparent;
-  color: rgb(255, 255, 255);
+  padding: 10px 70px;
+  border-radius: 100px;
+  border: 2px solid #00ff3c;
+  background-color: #00800059;
+  color: #ffffff;
 
   /* display flex e align items funcionam juntos */
   display: flex;
@@ -46,24 +45,24 @@ button {
 form {
   display: flex;
 
-  padding: 256px 48px 48px;
+  padding: 147px 48px 48px;
   width: fit-content;
 }
 
 .habits {
-  margin-top: 50px;
+  margin-top: 29px; /* top emojis*/
 
   display: flex;
   flex-direction: column;
 
-  gap: 16px;
+  gap: 10px;
 }
 
 .habit {
   width: 50px;
-  height: 68px;
+  height: 48px;
 
-  font-size: 30px;
+  font-size: 25px;
 
   display: flex;
   align-items: center;
@@ -72,24 +71,24 @@ form {
 
 .days {
   display: flex;
-  gap: 48px;
-  margin-left: 32px;
+  gap: 40px;
+  margin-left: 15px; /* distancia entre os dias laterais*/
 }
 
 .day {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 22px;
 }
 
 .day div {
   margin-bottom: 8px;
 
   font-family: "roboto mono";
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 17px;
+  line-height: 12px;
 
-  color: aliceblue;
+  color: #00ff3c;
 
   text-align: center;
 }
@@ -98,20 +97,21 @@ input {
   appearance: none;
   -webkit-appearance: none;
 
-  width: 60px;
-  height: 60px;
+  width: 45px;
+  height: 35px;
 
-  border: 1px solid red;
+  border: 1px solid #00ff3c;
   border-radius: 10px;
 
-  background-color: #111111;
+  background-color: #1f1f1f59;
 }
 
 /*pseudo selector*/
 input:checked {
-  background: red;
-  border: 2px solid red;
-  background-color: rgb(255, 0, 0);
+  background: #00ff3c;
+  border: 2px solid #ffffff;
+
+  background-color: #00ff3c;
   border-radius: 10px;
 }
 
