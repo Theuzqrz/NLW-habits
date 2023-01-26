@@ -18,17 +18,17 @@ header {
 
   justify-content: space-between;
   border: solid green; /* TIRAR */
-  padding: 15px 48px;
+  padding: 16px 16px;
   position: fixed;
   width: 100%;
   background-color: black;
 }
 
 button {
-  padding: 10px 70px;
-  border-radius: 100px;
-  border: 2px solid #00ff3c;
-  background-color: #00800059;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #00ff3c;
+  background-color: transparent;
   color: #ffffff;
 
   /* display flex e align items funcionam juntos */
@@ -45,7 +45,7 @@ button {
 form {
   display: flex;
 
-  padding: 147px 48px 48px;
+  padding: 147px 5px 48px;
   width: fit-content;
 }
 
